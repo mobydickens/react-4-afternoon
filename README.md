@@ -20,7 +20,7 @@ In this project we will be building a site for a University to keep track of stu
 
 ## Setup
 
-* `fork` and `clone` this repository.
+<!-- * `fork` and `clone` this repository.
 * `cd` into the project.
 * Run `npm install`.
     * One of the packages that was installed is `json-server`.
@@ -28,7 +28,7 @@ In this project we will be building a site for a University to keep track of stu
       * This data is stored in `./db.json`.
     * Another package that was installed for you is `concurrently`.
     * This library will allow us to run multiple scripts in a single terminal window.
-* Run `npm start` to spin up the development server <b>AND</b> the `json-server`.
+* Run `npm start` to spin up the development server <b>AND</b> the `json-server`. -->
 
 <img src="https://github.com/DevMountain/react-4-afternoon/blob/solution/readme-assets/2.png" />
 
@@ -836,9 +836,9 @@ In this step, we'll create a sub router that routes to the `About`, `History`, a
 
 ### Instructions
 
-* Open `src/components/About/About.js`.
+<!-- * Open `src/components/About/About.js`.
 * Import `Switch` and `Route` from `react-router-dom`.
-* Import the `History` and `Contact` components.
+* Import the `History` and `Contact` components. -->
 * Inside the `div` with the className `box`, add a `Switch` component.
 * Add 3 routes inside the `Switch` component:
   * The first two should route the `History` and `Contact` components.
